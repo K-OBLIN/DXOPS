@@ -1,2 +1,8 @@
+## Files
+*.exe
+*.zip
+*.obj
+*.pdb
 
-.vscode/settings.json
+## Directories
+.vscode/
