@@ -12,7 +12,7 @@ Written in C++ Language and Uses the latest C++ features. (C++20 or more)
 - [ ] Refactoring
 - [ ] Performance Improvements
 - [ ] MultiPlayer
-- [ ] Supported GamePad(XINPUT)
+- [ ] Support GamePad(XINPUT)
 
 ## Download
 not yet
