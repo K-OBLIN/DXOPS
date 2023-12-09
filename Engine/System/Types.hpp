@@ -5,10 +5,10 @@
     #pragma once
 #endif
 
-#include <cstddef>
+#include <cstddef>          // for size_t
 #include <cstdint>
 
-using sbyte_t = std::int8_t;
-using byte_t = std::uint8_t;
+using sbyte_t   = std::int8_t;          //!< signed 8Bit(1Byte) integers
+using byte_t    = std::uint8_t;         //!< unsigned 8Bit(1Byte) integers 
 
 #endif
