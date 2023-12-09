@@ -16,3 +16,8 @@ Written in C++ Language and Uses the latest C++ features. (C++20 or more)
 
 ## Download
 not yet
+
+## License
+I'm using Takumi Yamada's [DxLib](https://dxlib.xsrv.jp/).
+
+I plan to use [DxLib for Linux](https://github.com/dragoon2014/dxlib-for-linux) for cross-platform.
