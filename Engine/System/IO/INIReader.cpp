@@ -132,7 +132,7 @@ std::string INIReader::GetString(std::string_view section, std::string_view key,
 /// @return 성공(정수형 데이터), 실패(기본값)
 int64_t INIReader::GetInteger(std::string_view section, std::string_view key, int64_t defaultValue) noexcept
 {
-    return std::stoll(GetString(section, key, "0"));
+    return std::stoll(GetString(section, key, std::to_string(defaultValue)));
 }
 
 /// @brief 실수형 데이터를 취득합니다.
@@ -142,7 +142,7 @@ int64_t INIReader::GetInteger(std::string_view section, std::string_view key, in
 /// @return 성공(실수형 데이터), 실패(기본값)
 double INIReader::GetDouble(std::string_view section, std::string_view key, double defaultValue) noexcept
 {
-    return std::stod(GetString(section, key, "0.0"));
+    return std::stod(GetString(section, key, std::to_string(defaultValue)));
 }
 
 /// @brief Boolean 데이터를 취득합니다.

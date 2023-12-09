@@ -181,7 +181,7 @@ void BinaryWriter::Write(std::string_view value, size_t length) noexcept
     if (value.empty())  { return; }
 
     const auto str_length = value.length();
-    for (auto i = 0; i < length; ++i)
+    for (auto i = size_t(0); i < length; ++i)
     {
         m_ofs << (i > str_length) ? 0x00 : value[i];
     }
