@@ -12,7 +12,9 @@ Written in C++ Language and Uses the latest C++ features. (C++20 or more)
 - [ ] Refactoring
 - [ ] Performance Improvements
 - [ ] MultiPlayer
-- [ ] Support GamePad(XINPUT)
+- [X] (2023-12-10) Support GamePad(XINPUT)
+- [X] (2023-12-10) [NanoLog](https://github.com/Iyengar111/NanoLog)
+- [ ] [Nuklear](https://github.com/Immediate-Mode-UI/Nuklear)
 
 ## Download
 not yet
