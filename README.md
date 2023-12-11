@@ -1,26 +1,36 @@
 # DXOPS
 
-## Overview
-**D**xLib with **X Op**eration**s**(DXOPS) is a clone version of the X Operations(XOPS).
+## 개요(Overview)
+DXOPS(**D**xLib with **X Op**eration**s**)는 일본의 TEAM-METEI가 개발한 [X Operations(XOPS)](https://hp.vector.co.jp/authors/VA022962/xops/)의 클론 프로젝트입니다.
 
-It's an open source project and targeting cross-platform! (Android / iOS / Windows ).
+오픈 소스 프로젝트 및 크로스 플랫폼(Android / iOS / Windows / Linux)을 목표로 하고 있습니다. 웹 버전은 계획에 없습니다.
 
-Written in C++ Language and Uses the latest C++ features. (C++20 or more)
+C++20 이상의 버전을 활용해 개발되고 있습니다.
 
-## Goal
-- [ ] Cross-Platform (But, Currently.. targeting Windows... 😔)
-- [ ] Refactoring
-- [ ] Performance Improvements
-- [ ] MultiPlayer
-- [ ] Support Touch
-- [X] (2023-12-10) Support GamePad(XINPUT)
-- [X] (2023-12-10) [NanoLog](https://github.com/Iyengar111/NanoLog)
-- [ ] [Nuklear](https://github.com/Immediate-Mode-UI/Nuklear)
+> **ENGLISH**
+>
+> DXOPS(**D**xLib with **X Op**eration**s**) is a clone project of the [X Operations(XOPS)](https://hp.vector.co.jp/authors/VA022962/xops/).
+> 
+> It's an open source project and targeting cross-platform. (Android / iOS / Windows / Linux)
+> 
+> Written in C++ Language and Uses the lastest C++ features. (C++20 or More!!!)
 
-## Download
-not yet
+## 목표(Goal)
+- [ ] 크로스플랫폼(Cross-Platform)
+- [ ] 리팩토링(Refactoring)
+- [ ] 성능 향상(Performance Improvements)
+- [ ] 일관성 있는 코딩 스타일(Consistent Coding Naming Convention)
+- [ ] 멀티플레이어(MultiPlayer)
+- [ ] 터치 지원(Support Touch)
+- [X] 게임패드 지원(Support Joypad)
+- [X] 로깅(Logging): [NanoLog](https://github.com/Iyengar111/NanoLog)
+- [ ] GUI: [Nuklear](https://github.com/Immediate-Mode-UI/Nuklear) (It may change.)
 
-## License
-I'm using Takumi Yamada's [DxLib](https://dxlib.xsrv.jp/).
+## 내려받기(Download)
+:pensive:
 
-I plan to use [DxLib for Linux](https://github.com/dragoon2014/dxlib-for-linux) for cross-platform.
+## 사용된 라이브러리(Libraries)
+- [DxLib](https://dxlib.xsrv.jp/)
+- [DxLib for Linux](https://github.com/dragoon2014/dxlib-for-linux) (It's a plan.)
+- [NanoLog](https://github.com/Iyengar111/NanoLog)
+- [Nuklear](https://github.com/Immediate-Mode-UI/Nuklear)
