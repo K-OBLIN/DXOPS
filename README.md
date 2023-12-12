@@ -16,16 +16,18 @@ C++20 이상의 버전을 활용해 개발되고 있습니다.
 > Written in C++ Language and Uses the lastest C++ features. (C++20 or More!!!)
 
 ## 개발 환경(Development Environment)
-|Compiler|OS|IDE, Editor|
-|:-----:|:-----:|:-----:|
-|g++ (Rev2, Built by MSYS2 project) 13.2.0|Windows|VSCode|
+|Compiler|OS|IDE, Editor|DxLib|
+|:-----:|:-----:|:-----:|:-----:|
+|g++ (Rev2, Built by MSYS2 project) 13.2.0|Windows|VSCode|3.24c[^1]|
+
+[^1]: Temporary Version
 
 ## 시스템 요구 사항(System Requirements)
 |CPU|GPU|MEMORY|DISK|DirectX|OS|
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|Intel Celeron or More|Integrated graphics or More|256MB or More|20MB or More|DirectX 9.0 or More|Windows[^1]|
+|Intel Celeron or More|Integrated graphics or More|256MB or More|20MB or More|DirectX 9.0 or More|Windows[^2]|
 
-[^1]: Currently, only Windows.
+[^2]: Currently, only Windows.
 
 ## 목표(Goal)
 - [ ] 크로스플랫폼(Cross-Platform)
